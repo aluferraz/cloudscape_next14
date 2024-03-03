@@ -1,7 +1,7 @@
 import { type AppType } from "next/app";
 import { Inter } from "next/font/google";
 
-import { api } from "~/utils/api";
+import { api } from "~/trpc/api";
 import '@cloudscape-design/global-styles'
 
 import "~/styles/globals.css";
